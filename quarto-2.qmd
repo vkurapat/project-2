@@ -3,9 +3,13 @@ title: "Quarto 2"
 author: "Var Kurapati"
 execute:
   echo: false
-format: html
 ---
+
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
 ```
+
+##Test
+
+
