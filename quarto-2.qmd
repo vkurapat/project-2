@@ -5,11 +5,21 @@ execute:
   echo: false
 ---
 
-
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
 ```
 
-##Test
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = class)) +
+  geom_point() +
+  labs(
+    title = "Engine Displacement vs. Highway MPG",
+    x = "Engine Displacement (L)",
+    y = "Highway Miles per Gallon",
+    color = "Car Class"
+  )
+```
+
+
 
 
