@@ -1,0 +1,6 @@
+---
+title: "Quarto 2"
+author: "Var Kurapati"
+format: html
+---
+
